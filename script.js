@@ -60,8 +60,8 @@ function checkWinner (playerSelected) {
     
     for (let i = 0; i < winningCombinations.length; i++) {
         let matches = 0;
-        for (let j = 0; j < playerSelected.length; j++) {
-            if (winningCombinations[i].includes(playerSelected[j])) {
+        for (let j = 0; j < winningCombinations.length; j++) {
+            if (playerSelected.includes(winningCombinations[i][j])) {
                 matches++
             } else {
                 break
