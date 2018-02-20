@@ -15,6 +15,12 @@ const winningCombinations = [
     [3,5,7]
 ]
 
+var counter = 0
+
+function add() {
+    counter += 1;
+}
+
 handleClick = function(event) {
     var cell = event.target
     
