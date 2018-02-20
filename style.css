@@ -1,5 +1,11 @@
 td {
-    border: 1px solid blue;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 30px;
+    
 }
 
 td:hover {
@@ -8,4 +14,31 @@ td:hover {
 
 table {
     border: 1px solid green;
+    margin: 0px auto;
+
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(54, 6, 54);
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    font-size: xx-large
+}
+
+.x {
+    background: blue;
+    color: white;
+
+}
+
+.o {
+    background: red;
+    color: white;
+}
+
+.blank {
+    background: white;
+    color: black;
 }
